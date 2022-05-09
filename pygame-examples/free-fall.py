@@ -6,10 +6,10 @@ from object import Object
 
 def main():
     obj = Object(
-        x=100,
-        y=100,
-        height=40,
-        width=40,
+        x=10,
+        y=10
+        height=4,
+        width=4,
         v_x=0,
         v_y=0,
         boundary_x=Window.HEIGHT,
