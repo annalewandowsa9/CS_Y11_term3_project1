@@ -7,7 +7,7 @@ from object import Object
 def main():
     obj = Object(
         x=10,
-        y=10
+        y=10,
         height=4,
         width=4,
         v_x=0,
