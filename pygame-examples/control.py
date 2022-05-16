@@ -3,6 +3,7 @@ from const import Colors, Window, Gravity
 from object import Object
 
 
+
 def control_object(obj):
     if pygame.key.get_pressed()[pygame.K_UP]:
         obj.v_x -= 10
