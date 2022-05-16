@@ -20,15 +20,15 @@ def control_object(obj):
 
 def main():
     obj = Object(
-        x=100,
-        y=100,
-        height=40,
-        width=40,
+        x=10,
+        y=30,
+        height=10,
+        width=30,
         v_x=0,
         v_y=0,
-        color=Colors.PINK,
+        color=Colors.PURPLE,
     )
-    timestep = 100
+    timestep = 10
     pygame.init()
     clock = pygame.time.Clock()
     surface = pygame.display.set_mode(Window.SIZE)  # Displaying on specified window size
