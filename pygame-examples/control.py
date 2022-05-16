@@ -26,7 +26,15 @@ def main():
         width=30,
         v_x=0,
         v_y=0,
-        color=Colors.PURPLE,
+        color=Colors.BLUE,
+    obj = Object(
+        x=200,
+        y=30,
+        height=10,
+        width=30,
+        v_x=0,
+        v_y=0,
+        color=Colors.PINK,
     )
     timestep = 10
     pygame.init()
@@ -42,7 +50,7 @@ def main():
             if event.type == pygame.QUIT:  # To quit on clicking the X
                 run = False
         control_object(obj)
-        obj.update(Gravity.No, timestep / 1000)
+        obj.update(Gravity.Ui, timestep / 1000)
         obj.draw(surface)
         pygame.display.update()  # To update the display with newly added codes
 
